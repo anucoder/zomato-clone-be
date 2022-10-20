@@ -1,0 +1,25 @@
+{
+  "name": "assignment-6",
+  "version": "1.0.0",
+  "description": "Edureka Assignment 6 to create APIs",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edureka-intership/assignment-6-anucoder.git"
+  },
+  "author": "Anagha T Sasidharan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edureka-intership/assignment-6-anucoder/issues"
+  },
+  "homepage": "https://github.com/edureka-intership/assignment-6-anucoder#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.4",
+    "razorpay": "^2.8.3"
+  }
+}
