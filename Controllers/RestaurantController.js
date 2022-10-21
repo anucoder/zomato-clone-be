@@ -88,12 +88,14 @@ module.exports.filterData = async (request,response)=>{
     let result = await RestaurantModel.find(filter,{name:1,city:1,locality:1,min_price:1,cuisine:1,image:1}).sort({
       min_price: sort,
     });
+    let pages = Math.ceil(result.length/2);
     let result_page = result.splice((page*2)-2,no_of_records)
     // let result_page = result
     if(result_page.length!=0){
       response.status(200).send({
         status: true,
         result_page,
+        pages
       });
     }
     else{
