@@ -1,7 +1,7 @@
 {
   "name": "assignment-6",
   "version": "1.0.0",
-  "description": "Edureka Assignment 6 to create APIs",
+  "description": "Zomato backend",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js"
